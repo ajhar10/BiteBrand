@@ -11,11 +11,7 @@ const Footer = () => {
                     <div className="col">
                         <h4>BiteBrand</h4>
 
-                        <p className="list-unstyled">
-                            <li>01639076052</li>
-                            <li>Dhaka, Bangladesh</li>
-                            <li>10 Streeet Mirpur</li>
-                        </p>
+
                     </div>
                     {/* Column2 */}
                     <div className="col">

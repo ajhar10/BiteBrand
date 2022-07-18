@@ -31,7 +31,7 @@ const Cards = () => {
                                             {element.somedata}
                                         </Card.Text>
                                         <div className='button_div d-flex justify-content-center'>
-                                            <Button onClick={()=> send(element)} className='col-lg-12'  style={{backgroundColor:"#075354"}}>Add to Cart</Button>
+                                            <Button onClick={()=> send(element)} className='col-lg-12 btn-info'  >Add to Cart</Button>
                                         </div>
                                     </Card.Body>
                                 </Card>

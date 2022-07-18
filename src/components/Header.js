@@ -45,7 +45,7 @@ const Header = () => {
         <div>
             <Navbar bg="light" variant="light" style={{ height: "60px" }}>
                 <Container>
-                    <Nav.Link as={Link} to='/' className='me-3 font-2 '>BiteBrand</Nav.Link>
+                    <Nav.Link as={Link} to='/' style={{fontSize:22,color:"#4df7f7c1"}} className='me-3 font-4 '>BiteBrand</Nav.Link>
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to='/'>Home</Nav.Link>
                     </Nav>
