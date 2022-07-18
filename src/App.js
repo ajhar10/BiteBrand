@@ -4,6 +4,7 @@ import Header from './components/Header';
 import {Routes,Route} from 'react-router-dom'
 import Cards from './components/Cards';
 import CardDetails from './components/CardDetails';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
         <Route path='/' element={<Cards/>}/>
         <Route path='/cart/:id' element={<CardDetails/>}/>
     </Routes>
+    <Footer></Footer>
     </>
   );
 }

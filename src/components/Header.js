@@ -43,7 +43,7 @@ const Header = () => {
     },[total])
     return (
         <div>
-            <Navbar bg="dark" variant="dark" style={{ height: "60px" }}>
+            <Navbar bg="light" variant="light" style={{ height: "60px" }}>
                 <Container>
                     <Nav.Link as={Link} to='/' className='me-3 font-2 '>BiteBrand</Nav.Link>
                     <Nav className="me-auto">
@@ -55,7 +55,7 @@ const Header = () => {
                         aria-haspopup="true"
                         aria-expanded={open ? 'true' : undefined}
                         onClick={handleClick}>
-                        <i className="fa-solid fa-cart-shopping text-light" style={{ fontSize: 25, cursor: 'pointer' }}></i>
+                        <i className="fa-solid fa-cart-shopping text-dark" style={{ fontSize: 25, cursor: 'pointer' }}></i>
                     </Badge>
 
                 </Container>
